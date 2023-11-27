@@ -13,6 +13,7 @@ import React, { useEffect, useState } from 'react';
 import { BrowserRouter } from "react-router-dom";
 import Aos from 'aos';
 import { Loader } from './components/iconsvg';
+import BackToTop from './assets/images/BackToTop.webp';
 
 function App() {
   useEffect(() => {
@@ -61,8 +62,8 @@ function App() {
             <Results />
             <LearnFromUs />
             <Footer />
-              <div>
-                
+            <div>
+              <img onClick={() => top()} src={BackToTop} alt='BackToTop' className={backToTop ? "back_to_top" : "d-none"} />
             </div>
           </>
         </BrowserRouter>
