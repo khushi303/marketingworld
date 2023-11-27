@@ -119,10 +119,12 @@ export const BtnSliderpre = () => {
 
 export const Callarrow = () => {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" width="29" height="11" viewBox="0 0 29 11" fill="none">
-            <path d="M23.28 1.54004L27.24 5.50004L23.28 9.46004" stroke="black" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" />
-            <path d="M25.75 5.5H1" stroke="black" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" />
-        </svg>
+        <div className="position-relative z-1 pb-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="11" viewBox="0 0 29 11" fill="none">
+                <path d="M23.28 1.54004L27.24 5.50004L23.28 9.46004" stroke="black" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" />
+                <path d="M25.75 5.5H1" stroke="black" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" />
+            </svg>
+        </div>
     )
 }
 
@@ -223,5 +225,14 @@ export const Spiralarrow = () => {
                 </clipPath>
             </defs>
         </svg>
+    )
+}
+
+export const Loader = () => {
+    return (
+        <div className="bg_blue9 min-vh-100 d-flex align-items-center justify-content-center position-fixed start-0 end-0">
+            {/* <svg className="mw-150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><rect fill="#fff" stroke="#fff" stroke-width="15" width="30" height="30" x="25" y="85"><animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.4"></animate></rect><rect fill="#fff" stroke="#fff" stroke-width="15" width="30" height="30" x="85" y="85"><animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.2"></animate></rect><rect fill="#fff" stroke="#fff" stroke-width="15" width="30" height="30" x="145" y="85"><animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="0"></animate></rect></svg> */}
+            <svg className="mw-150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><rect fill="#fff" stroke="#fff" stroke-width="15" width="30" height="30" x="25" y="50"><animate attributeName="y" calcMode="spline" dur="2" values="50;120;50;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.4"></animate></rect><rect fill="#fff" stroke="#fff" stroke-width="15" width="30" height="30" x="85" y="50"><animate attributeName="y" calcMode="spline" dur="2" values="50;120;50;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.2"></animate></rect><rect fill="#fff" stroke="#fff" stroke-width="15" width="30" height="30" x="145" y="50"><animate attributeName="y" calcMode="spline" dur="2" values="50;120;50;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="0"></animate></rect></svg>
+        </div>
     )
 }

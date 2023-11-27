@@ -11,8 +11,8 @@ const DigitalRevenue = () => {
     return (
         <div className='py-5 position-relative'>
             <Container>
-                <p className='mb-0 ff-maisonlight fs-lg fw-light text-black text-center'>Driving digital revenue for over</p>
-                <h2 className='mb-0 ff-sohne fs-2xl fw-bold text-black text-center text-uppercase'><div className='position-relative d-inline-flex'><span className='mb-0'>1,400</span>
+                <p data-aos="fade-right" data-aos-duration="1900" className='mb-0 ff-maisonlight fs-lg fw-light text-black text-center'>Driving digital revenue for over</p>
+                <h2 data-aos="fade-right" data-aos-duration="1850" className='mb-0 ff-sohne fs-2xl fw-bold text-black text-center text-uppercase'><div className='position-relative d-inline-flex'><span className='mb-0'>1,400</span>
                     <div className='position-absolute redline4'>
                         <img src={Redline4} alt="Redline4" className='w-100' />
                     </div>
@@ -21,8 +21,8 @@ const DigitalRevenue = () => {
 
             <Container fluid className=''>
                 <Row className='pt-lg-5 pt-4 mt-lg-3 justify-content-center'>
-                    <Col xl={4} lg={6} md={9} className='p-0 px-3'>
-                        <div className='bg_greenblue p-3 position-relative overflow-hidden'>
+                    <Col data-aos="fade-right" data-aos-duration="2000" xl={4} lg={6} md={9} className='p-0 px-3'>
+                        <div className='bg_greenblue digi-card2 cur-pointer p-3 position-relative overflow-hidden'>
                             <div className='card1 position-relative z-2'>
                                 <img src={AmberBook1} alt="AmberBook1" />
                                 <div className='pt-3 pb-5'>
@@ -46,12 +46,12 @@ const DigitalRevenue = () => {
                                 </div>
                             </div>
                             <div className='position-absolute Card1img'>
-                                <img src={Card1img} alt="Card1img" />
+                                <img src={Card1img} alt="Card1img" className='w-100' />
                             </div>
                         </div>
                     </Col>
-                    <Col xl={4} lg={6} md={9} className='p-0 px-3 pt-lg-0 pt-4'>
-                        <div className='bg-green5c p-3 position-relative overflow-hidden'>
+                    <Col data-aos="fade-up" data-aos-duration="1950" xl={4} lg={6} md={9} className='p-0 px-3 pt-lg-0 pt-4'>
+                        <div className='bg-green5c digi-card2 cur-pointer p-3 position-relative overflow-hidden'>
                             <div className='card1 position-relative z-2'>
                                 <img src={AmberBook1} alt="AmberBook1" />
                                 <div className='pt-3 pb-5'>
@@ -79,8 +79,8 @@ const DigitalRevenue = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col xl={4} lg={6} md={9} className='p-0 px-3 pt-xl-0 pt-4'>
-                        <div className='bg_yellgreen p-3 position-relative overflow-hidden'>
+                    <Col data-aos="fade-left" data-aos-duration="1900" xl={4} lg={6} md={9} className='p-0 px-3 pt-xl-0 pt-4'>
+                        <div className='bg_yellgreen digi-card2 cur-pointer p-3 position-relative overflow-hidden'>
                             <div className='card1 position-relative z-2'>
                                 <img src={AmberBook1} alt="AmberBook1" />
                                 <div className='pt-3 pb-5'>

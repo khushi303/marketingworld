@@ -7,18 +7,66 @@ import GrowthPartner from './components/GrowthPartner';
 import Results from './components/Results';
 import LearnFromUs from './components/LearnFromUs';
 import Footer from './components/Footer';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import React, { useEffect, useState } from 'react';
+import { BrowserRouter } from "react-router-dom";
+import Aos from 'aos';
+import { Loader } from './components/iconsvg';
 
 function App() {
+  useEffect(() => {
+    AOS.init(
+      {
+        once: true,
+        duration: 2000
+      }
+    );
+    Aos.refresh()
+  });
+  const [screenLoading, setScreenLoading] = useState(false);
+
+  useEffect(() => {
+    setScreenLoading(true);
+    setTimeout(() => {
+      setScreenLoading(false);
+    }, 4000);
+  }, []);
+
+  const top = () => {
+    document.documentElement.scrollTop = 0;
+  };
+  const [backToTop, setbackToTop] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (document.documentElement.scrollTop > 300) {
+        setbackToTop(true);
+      } else {
+        setbackToTop(false);
+      }
+    });
+  }, []);
   return (
     <div>
-      <Header />
-      <Features />
-      <DigitalRevenue />
-      <DigitalMarketing />
-      <GrowthPartner />
-      <Results />
-      <LearnFromUs />
-      <Footer />
+      {screenLoading ? (
+        <Loader />
+      ) : (
+        <BrowserRouter>
+          <>
+            <Header />
+            <Features />
+            <DigitalRevenue />
+            <DigitalMarketing />
+            <GrowthPartner />
+            <Results />
+            <LearnFromUs />
+            <Footer />
+              <div>
+                
+            </div>
+          </>
+        </BrowserRouter>
+      )}
     </div>
   );
 }

@@ -23,9 +23,9 @@ const GrowthPartner = () => {
                 <img src={Greenline2} alt="Greenline2" className='w-100' />
             </div>
             <Container className='mb-5 pb-3'>
-                <h2 className='mb-0 ff-sohne fs-2xl fw-bold text-black text-center text-uppercase'>The growth partner </h2>
-                <p className='mb-0 ff-maisonlight fs-lg fw-light text-black text-center'>you’ve been looking for.</p>
-                <p className='mb-0 ff-maisonnormal fs-4sm fw-normal text-black text-center pt-4 pt-3 mb-5 pb-3'>Businesses trust Venveo to power grow.</p>
+                <h2 data-aos="fade-up" className='mb-0 ff-sohne fs-2xl fw-bold text-black text-center text-uppercase'>The growth partner </h2>
+                <p data-aos="fade-up" className='mb-0 ff-maisonlight fs-lg fw-light text-black text-center'>you’ve been looking for.</p>
+                <p data-aos="fade-up" className='mb-0 ff-maisonnormal fs-4sm fw-normal text-black text-center pt-4 pt-3 mb-5 pb-3'>Businesses trust Venveo to power grow.</p>
                 <div>
                     <ul className="nav nav-pills mb-5 gap-md-3 gap-2 justify-content-center" id="pills-tab" role="tablist">
                         <li className="nav-item position-relative tr_linear" role="presentation">
@@ -56,23 +56,23 @@ const GrowthPartner = () => {
                                 <Row className='position-absolute z-2 top-0 px-md-5 px-4 start-0 end-0 bottom-0 py-lg-5 py-4'>
                                     <Col lg={5} className='d-flex flex-column justify-content-between'>
                                         <div>
-                                            <h2 className='mb-0 ff-sohne fs-2xl fw-bold text-white text-uppercase mw-415'>the smartest minds in the
+                                            <h2 data-aos="fade-right" data-aos-duration="2000" className='mb-0 ff-sohne fs-2xl fw-bold text-white text-uppercase mw-415'>the smartest minds in the
                                                 industry</h2>
-                                            <p className='mb-0 ff-maisonlight fw-light fs-lg text-white mw-360 pt-2'>Answer our questions and listen to our answers.</p>
-                                            <p className='mb-0 ff-maisonnormal fw-normal fs-4sm text-white mw-360 pt-3'>This is placeholder but can add more the business of building, some epic fails (and how to avoid them) and everything building science.</p>
+                                            <p data-aos="fade-right" data-aos-duration="1900" className='mb-0 ff-maisonlight fw-light fs-lg text-white mw-360 pt-2'>Answer our questions and listen to our answers.</p>
+                                            <p data-aos="fade-right" data-aos-duration="1800" className='mb-0 ff-maisonnormal fw-normal fs-4sm text-white mw-360 pt-3'>This is placeholder but can add more the business of building, some epic fails (and how to avoid them) and everything building science.</p>
                                         </div>
-                                        <div className=''>
-                                            <button className='mt-lg-5 mt-4 btn-podcast text-white ff-maisonmedium fs-4sm fw-medium'> <Ranger /> Subscribe to Podcast▼</button>
+                                        <div data-aos="fade-up" data-aos-duration="1900" className=''>
+                                            <button className='mt-lg-5 mt-4 btn-podcast text-white ff-maisonmedium fs-4sm fw-medium btn-1'> <Ranger /> Subscribe to Podcast▼</button>
                                         </div>
                                     </Col>
                                     <Col lg={2} className='d-flex overflow-y-scroll img_scroll gap-4 align-items-center flex-lg-column justify-content-between pt-lg-0 pt-3'>
-                                        <img src={Homeimg} alt="mw-64 w-100" />
-                                        <img src={Aiaimg} alt="Aiaimg" className='mw-66 w-100' />
-                                        <img src={Loweimg} alt="Loweimg" className='mw-92 w-100' />
-                                        <img src={Buildimg} alt="Buildimg" className='mw-102 w-100' />
-                                        <img src={Houzimg} alt="Houzimg" className='mw-117 w-100' />
+                                        <img data-aos="zoom-in" src={Homeimg} alt="mw-64 w-100" />
+                                        <img data-aos="zoom-in" src={Aiaimg} alt="Aiaimg" className='mw-66 w-100' />
+                                        <img data-aos="zoom-in" src={Loweimg} alt="Loweimg" className='mw-92 w-100' />
+                                        <img data-aos="zoom-in" src={Buildimg} alt="Buildimg" className='mw-102 w-100' />
+                                        <img data-aos="zoom-in" src={Houzimg} alt="Houzimg" className='mw-117 w-100' />
                                     </Col>
-                                    <Col lg={5} className='scroll_height overflow-y-scroll d-flex flex-column align-items-center justify-content-center gap-md-5 gap-sm-4 gap-3 mt-lg-0 mt-3'>
+                                    <Col data-aos="fade-down" lg={5} className='scroll_height overflow-y-scroll d-flex flex-column align-items-center justify-content-center gap-md-5 gap-sm-4 gap-3 mt-lg-0 mt-3'>
                                         <div className='bg-white card_padd'>
                                             <img src={Agedman} alt="Agedman" className='w-100 br_25' />
                                             <div className='pt-4 mt-2'>
@@ -125,7 +125,7 @@ const GrowthPartner = () => {
                                             <p className='mb-0 ff-maisonlight fw-light fs-lg text-white mw-360'>Lorem ipsum what this
                                                 product actually does.</p>
                                             <p className='mb-0 ff-maisonnormal fw-normal fs-4sm text-white pt-2 mw-360'>This is placeholder but can add more the business of building, some epic fails (and how to avoid them) and everything building science.</p>
-                                            <a href="" className='green_btn align-items-center gap-1 d-inline-flex mt-lg-5 mt-4'>
+                                            <a href="" className='green_btn align-items-center gap-1 d-inline-flex mt-lg-5 mt-4 btn-1'>
                                                 <p className='mb-0 ff-maisonsemibold fw-semibold fs-4sm text-black'>Call to Action Somewhere</p>
                                                 <Callarrow />
                                             </a>
@@ -198,7 +198,7 @@ const GrowthPartner = () => {
                                             <p className='mb-0 ff-maisonlight fw-light fs-lg text-white mw-360'>Lorem ipsum what this
                                                 product actually does.</p>
                                             <p className='mb-0 ff-maisonnormal fw-normal fs-4sm text-white pt-2 mw-360'>This is placeholder but can add more the business of building, some epic fails (and how to avoid them) and everything building science.</p>
-                                            <a href="" className='green_btn align-items-center gap-1 d-inline-flex mt-lg-5 mt-4'>
+                                            <a href="" className='green_btn align-items-center gap-1 d-inline-flex mt-lg-5 mt-4 btn-1'>
                                                 <p className='mb-0 ff-maisonsemibold fw-semibold fs-4sm text-black'>Call to Action Somewhere</p>
                                                 <Callarrow />
                                             </a>

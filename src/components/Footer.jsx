@@ -9,8 +9,8 @@ const Footer = () => {
                 <Container className='my-2'>
                     <div className='d-flex align-items-center flex-column flex-lg-row justify-content-center gap-5'>
                         <h4 className='mb-0 ff-maisonlight fs-2lg fw-light text-white'>Ready to hit your goals?</h4>
-                        <a href="" className='d-flex align-items-center justify-content-center gap-1 btn-call'>
-                            <p className='mb-0 ff-maisonsemibold fs-4sm fw-semibold text-black'>Book a Strategy Call</p>
+                        <a href="" className='d-flex align-items-center justify-content-center gap-1 btn-call btn-1 position-relative'>
+                            <p className='mb-0 ff-maisonsemibold fs-4sm fw-semibold text-black position-relative z-1'>Book a Strategy Call</p>
                             <Callarrow />
                         </a>
                     </div>
@@ -23,41 +23,41 @@ const Footer = () => {
                             <Row className=''>
                                 <Col lg={3} className='col-6'>
                                     <ul className='list-unstyled mb-0'>
-                                        <li className='ff-maisonmedium fw-medium fs-2sm text-white text-uppercase pb-4'>how we help</li>
-                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2'>Drive More Awareness</a></li>
-                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2'>Get more Customers</a></li>
-                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2'>Build Your Brand</a></li>
-                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2'>Improve your reputation</a></li>
-                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2'>Track Results</a></li>
+                                        <li className='ff-maisonmedium fw-medium fs-2sm text-white text-uppercase pb-3'>how we help</li>
+                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2 text_hov'>Drive More Awareness</a></li>
+                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2 text_hov'>Get more Customers</a></li>
+                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2 text_hov'>Build Your Brand</a></li>
+                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2 text_hov'>Improve your reputation</a></li>
+                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2 text_hov'>Track Results</a></li>
                                     </ul>
                                 </Col>
                                 <Col lg={3} className='col-6'>
                                     <ul className='list-unstyled mb-0'>
-                                        <li className='ff-maisonmedium fw-medium fs-2sm text-white text-uppercase pb-4'>who we help</li>
-                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2'>Digital Advertising</a></li>
-                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2'>Search Engine Ranking</a></li>
-                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2'>Content Marketing</a></li>
-                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2'>Programic Advertising</a></li>
-                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2'>Email Marketing</a></li>
+                                        <li className='ff-maisonmedium fw-medium fs-2sm text-white text-uppercase pb-3'>who we help</li>
+                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2 text_hov'>Digital Advertising</a></li>
+                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2 text_hov'>Search Engine Ranking</a></li>
+                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2 text_hov'>Content Marketing</a></li>
+                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2 text_hov'>Programic Advertising</a></li>
+                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2 text_hov'>Email Marketing</a></li>
                                     </ul>
                                 </Col>
                                 <Col lg={3} className='pb-lg-4 col-6 pt-lg-0 pt-4'>
                                     <ul className='list-unstyled mb-0'>
                                         <li className='ff-maisonmedium fw-medium fs-2sm text-white text-uppercase pb-3'>why venveo</li>
-                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2'>About Us</a></li>
-                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2'>Careers</a></li>
-                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2'>Growth Studies</a></li>
-                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2'>Testimonials</a></li>
+                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2 text_hov'>About Us</a></li>
+                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2 text_hov'>Careers</a></li>
+                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2 text_hov'>Growth Studies</a></li>
+                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2 text_hov'>Testimonials</a></li>
                                     </ul>
                                 </Col>
                                 <Col lg={3} className='col-6 pb-lg-4 pt-lg-0 pt-4'>
                                     <ul className='list-unstyled mb-0'>
                                         <li className='ff-maisonmedium fw-medium fs-2sm text-white text-uppercase pb-3'>resources</li>
-                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2'>Articles</a></li>
-                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2'>News</a></li>
-                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2'>Webinars</a></li>
-                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2'>eBooks</a></li>
-                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2'>Podcast</a></li>
+                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2 text_hov'>Articles</a></li>
+                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2 text_hov'>News</a></li>
+                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2 text_hov'>Webinars</a></li>
+                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2 text_hov'>eBooks</a></li>
+                                        <li><a href="" className='ff-maisonlight fw-light fs-4sm text-white text-capitalize pb-2 text_hov'>Podcast</a></li>
                                     </ul>
                                 </Col>
                                 <Col lg={6} className='d-flex align-items-end pt-lg-5 pt-3 mt-4'>
@@ -75,8 +75,8 @@ const Footer = () => {
                                 <Col lg={3} className='col-6 pt-lg-5 pt-3 mt-4'>
                                     <ul className='list-unstyled mb-0'>
                                         <li className='ff-maisonmedium fw-medium fs-2sm text-white text-uppercase pb-3'>resources</li>
-                                        <li className='pb-2'><a href="" className='ff-maisonnormal fw-normal fs-3sm text-white text-nowrap'>100 N Main Street</a></li>
-                                        <li className='pb-2'><a href="" className='ff-maisonnormal fw-normal fs-3sm text-white text-nowrap'>1 · 800 · 123 · 4567</a></li>
+                                        <li className='pb-2'><a href="" className='ff-maisonnormal fw-normal fs-3sm text-white text-nowrap text_hov2'>100 N Main Street</a></li>
+                                        <li className='pb-2'><a href="" className='ff-maisonnormal fw-normal fs-3sm text-white text-nowrap text_hov2'>1 · 800 · 123 · 4567</a></li>
                                     </ul>
                                 </Col>
                             </Row>
