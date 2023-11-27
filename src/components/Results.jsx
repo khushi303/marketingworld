@@ -3,9 +3,9 @@ import { Container } from 'react-bootstrap';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import Blueshirtman from '../assets/images/blue-shirt-man.png';
+import Blueshirtman from '../assets/images/webp/blue-shirt-man.webp';
 import { Playbtn, Hpsvg, BtnSliderNext, BtnSliderpre } from './iconsvg';
-import Blueline1 from '../assets/images/blueline1.png';
+import Blueline1 from '../assets/images/webp/blueline1.webp';
 
 const Results = () => {
     const slider1 = React.useRef(null);

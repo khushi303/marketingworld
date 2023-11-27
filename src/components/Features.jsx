@@ -3,12 +3,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { Container } from 'react-bootstrap';
-import Wsfimg from '../assets/images/wsfimg.png';
-import Enterpreneurimg from '../assets/images/enterpreneurimg.png';
-import Fortuneimg from '../assets/images/fortuneimg.png';
-import Forbesimg from '../assets/images/forbesimg.png';
-import Incimg from '../assets/images/incimg.png';
-import Greenlineimg from '../assets/images/GreenlineDoubleimg.png'
+import Wsfimg from '../assets/images/webp/wsfimg.webp';
+import Enterpreneurimg from '../assets/images/webp/enterpreneurimg.webp';
+import Fortuneimg from '../assets/images/webp/fortuneimg.webp';
+import Forbesimg from '../assets/images/webp/forbesimg.webp';
+import Incimg from '../assets/images/webp/incimg.webp';
+import Greenlineimg from '../assets/images/webp/GreenlineDoubleimg.webp'
 
 const Features = () => {
     const settings = {

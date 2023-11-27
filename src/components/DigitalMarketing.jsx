@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import { Fourdots, Rightarrow, Marketsvg1, Crossimg, Flyingsvg, Spiralarrow } from './iconsvg';
-import Greenline11 from '../assets/images/greentwoline.png';
+import Greenline11 from '../assets/images/webp/greentwoline.webp';
 
 const DigitalMarketing = () => {
     return (

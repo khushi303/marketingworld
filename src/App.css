@@ -161,7 +161,7 @@ html {
 
 /* -------------------Header----------------- */
 .bg_header {
-  background-image: linear-gradient(360deg, #fff 12%, transparent 12%), url('./assets/images/bg-header.png');
+  background-image: linear-gradient(360deg, #fff 12%, transparent 12%), url('./assets/images/webp/bg-header.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -343,7 +343,7 @@ li:focus .dropdown-box {
 }
 
 .bg-greenimg {
-  background-image: url("./assets/images/bg-greenlayer.png");
+  background-image: url("./assets/images/webp/bg-greenlayer.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -387,7 +387,7 @@ li:focus .dropdown-box {
 
 /* ---------------------results----------------- */
 .bg-results {
-  background-image: url('./assets/images/bg-results.png');
+  background-image: url('./assets/images/webp/bg-results.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -425,7 +425,7 @@ li:focus .dropdown-box {
 
 /* -----------footer------------ */
 .bg-goals {
-  background-image: url('./assets/images/bg-bluelayer.png');
+  background-image: url('./assets/images/webp/bg-bluelayer.webp');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;

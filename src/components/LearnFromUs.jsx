@@ -1,11 +1,11 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Rightarrow } from './iconsvg';
-import Threeman from '../assets/images/threemanatwork.png';
-import Redell1 from '../assets/images/imgredbrand.png';
-import Marketimg1 from '../assets/images/marketimg1.png';
-import Marketimg2 from '../assets/images/marketimg2.png';
-import Marketimg3 from '../assets/images/marketimg3.png';
+import Threeman from '../assets/images/webp/threemanatwork.webp';
+import Redell1 from '../assets/images/webp/imgredbrand.webp';
+import Marketimg1 from '../assets/images/webp/marketimg1.webp';
+import Marketimg2 from '../assets/images/webp/marketimg2.webp';
+import Marketimg3 from '../assets/images/webp/marketimg3.webp';
 
 const LearnFromUs = () => {
     return (

@@ -2,19 +2,19 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import VideoNav1 from '../assets/Video/navtabvideo1.mov';
 import { Ranger, Rightarrow } from './iconsvg';
-import Homeimg from '../assets/images/home-img.png';
-import Aiaimg from '../assets/images/aia-img.png';
-import Loweimg from '../assets/images/lowe-img.png';
-import Buildimg from '../assets/images/build-img.png';
-import Houzimg from '../assets/images/houz-img.png';
-import Agedman from '../assets/images/aged-man.png';
+import Homeimg from '../assets/images/webp/home-img.webp';
+import Aiaimg from '../assets/images/webp/aia-img.webp';
+import Loweimg from '../assets/images/webp/lowe-img.webp';
+import Buildimg from '../assets/images/webp/build-img.webp';
+import Houzimg from '../assets/images/webp/houz-img.webp';
+import Agedman from '../assets/images/webp/aged-man.webp';
 import Globevideo from '../assets/Video/globr-video.mp4';
 import Handvideo from '../assets/Video/hand-video.mp4';
 import { Logoipsum, Callarrow } from './iconsvg';
-import Dotsimg from '../assets/images/dots-img.png';
-import Mapimg from '../assets/images/mapimg.png';
-import Redline from '../assets/images/red-line.png';
-import Greenline2 from '../assets/images/greenline2.png';
+import Dotsimg from '../assets/images/webp/dots-img.webp';
+import Mapimg from '../assets/images/webp/mapimg.webp';
+import Redline from '../assets/images/webp/red-line.webp'
+import Greenline2 from '../assets/images/webp/greenline2.webp';
 
 const GrowthPartner = () => {
     return (

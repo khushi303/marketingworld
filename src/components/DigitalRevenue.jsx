@@ -1,11 +1,11 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
-import Card1img from '../assets/images/card1dr.png';
-import AmberBook1 from '../assets/images/amberbookimg.png';
+import Card1img from '../assets/images/webp/card1dr.webp';
+import AmberBook1 from '../assets/images/webp/amberbookimg.webp';
 import { Arrowicon } from './iconsvg';
-import Card2img from '../assets/images/card2-dr.png';
-import Card3img from '../assets/images/card3dr.png';
-import Redline4 from '../assets/images/redline4.png';
+import Card2img from '../assets/images/webp/card2-dr.webp';
+import Card3img from '../assets/images/webp/card3dr.webp';
+import Redline4 from '../assets/images/webp/redline4.webp';
 
 const DigitalRevenue = () => {
     return (

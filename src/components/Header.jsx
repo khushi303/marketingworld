@@ -3,8 +3,8 @@ import { useState } from 'react'
 import { Container } from 'react-bootstrap';
 import { Searchicon, Navarrow, RedEllipse } from './iconsvg';
 import Video1 from '../assets/Video/plan-video.mp4';
-import Greenline1 from '../assets/images/greenline1.png';
-import Greenline11 from '../assets/images/greenline11.png';
+import Greenline1 from '../assets/images/webp/greenline1.webp';
+import Greenline11 from '../assets/images/webp/greenline11.webp'
 
 const Header = () => {
     const [show, setshow] = useState(true);
