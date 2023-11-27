@@ -15,6 +15,7 @@ import Dotsimg from '../assets/images/webp/dots-img.webp';
 import Mapimg from '../assets/images/webp/mapimg.webp';
 import Redline from '../assets/images/webp/red-line.webp'
 import Greenline2 from '../assets/images/webp/greenline2.webp';
+import Redcircle from '../assets/images/webp/RedCross.webp';
 
 const GrowthPartner = () => {
     return (
@@ -66,11 +67,36 @@ const GrowthPartner = () => {
                                         </div>
                                     </Col>
                                     <Col lg={2} className='d-flex overflow-y-scroll img_scroll gap-4 align-items-center flex-lg-column justify-content-between pt-lg-0 pt-3'>
-                                        <img data-aos="zoom-in" src={Homeimg} alt="mw-64 w-100" />
-                                        <img data-aos="zoom-in" src={Aiaimg} alt="Aiaimg" className='mw-66 w-100' />
-                                        <img data-aos="zoom-in" src={Loweimg} alt="Loweimg" className='mw-92 w-100' />
-                                        <img data-aos="zoom-in" src={Buildimg} alt="Buildimg" className='mw-102 w-100' />
-                                        <img data-aos="zoom-in" src={Houzimg} alt="Houzimg" className='mw-117 w-100' />
+                                        <div className='position-relative redcir cur-pointer'>
+                                            <img data-aos="zoom-in" src={Homeimg} alt="homeimg" className='mw-64 w-100' />
+                                            <div className='position-absolute redcircle'>
+                                                <img src={Redcircle} alt="Redcircle" className='w-100 redcircleimg' />
+                                            </div>
+                                        </div>
+                                        <div className='position-relative redcir cur-pointer'>
+                                            <img data-aos="zoom-in" src={Aiaimg} alt="Aiaimg" className='mw-66 w-100' />
+                                            <div className='position-absolute redcircle'>
+                                                <img src={Redcircle} alt="Redcircle" className='w-100 redcircleimg' />
+                                            </div>
+                                        </div>
+                                        <div className='position-relative redcir cur-pointer'>
+                                            <img data-aos="zoom-in" src={Loweimg} alt="Loweimg" className='mw-92 w-100' />
+                                            <div className='position-absolute redcircle1'>
+                                                <img src={Redcircle} alt="Redcircle" className='w-100 redcircleimg' />
+                                            </div>
+                                        </div>
+                                        <div className='position-relative redcir cur-pointer'>
+                                            <img data-aos="zoom-in" src={Buildimg} alt="Buildimg" className='mw-102 w-100' />
+                                            <div className='position-absolute redcircle2'>
+                                                <img src={Redcircle} alt="Redcircle" className='w-100 redcircleimg' />
+                                            </div>
+                                        </div>
+                                        <div className='position-relative redcir cur-pointer'>
+                                            <img data-aos="zoom-in" src={Houzimg} alt="Houzimg" className='mw-117 w-100' />
+                                            <div className='position-absolute redcircle3'>
+                                                <img src={Redcircle} alt="Redcircle" className='w-100 redcircleimg' />
+                                            </div>
+                                        </div>
                                     </Col>
                                     <Col data-aos="fade-down" lg={5} className='scroll_height overflow-y-scroll d-flex flex-column align-items-center justify-content-center gap-md-5 gap-sm-4 gap-3 mt-lg-0 mt-3'>
                                         <div className='bg-white card_padd'>

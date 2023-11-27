@@ -13,7 +13,7 @@ import React, { useEffect, useState } from 'react';
 import { BrowserRouter } from "react-router-dom";
 import Aos from 'aos';
 import { Loader } from './components/iconsvg';
-import BackToTop from './assets/images/BackToTop.webp';
+import BackToTop from './assets/images/webp/BackToTop.webp';
 
 function App() {
   useEffect(() => {
@@ -31,7 +31,7 @@ function App() {
     setScreenLoading(true);
     setTimeout(() => {
       setScreenLoading(false);
-    }, 4000);
+    }, 3500);
   }, []);
 
   const top = () => {
