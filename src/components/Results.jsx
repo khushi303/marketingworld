@@ -36,7 +36,7 @@ const Results = () => {
                 }
             },
             {
-                breakpoint: 768,
+                breakpoint: 950,
                 settings: {
                     centerMode: false,
                     centerPadding: "200px",
