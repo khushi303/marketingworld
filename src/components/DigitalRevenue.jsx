@@ -19,9 +19,9 @@ const DigitalRevenue = () => {
                 </div>+ satisfied clients.</h2>
             </Container>
 
-            <Container fluid className=''>
-                <Row className='pt-lg-5 pt-4 mt-lg-3 justify-content-center'>
-                    <Col data-aos="fade-right" data-aos-duration="2000" xl={4} lg={6} md={9} className='p-0 px-3'>
+            <Container fluid className='p-0'>
+                <Row className='pt-lg-5 pt-4 mt-lg-3 justify-content-center p-0'>
+                    <Col data-aos="fade-right" data-aos-duration="2000" xl={4} lg={6} md={9} className='p-0 pe-lg-3'>
                         <div className='bg_greenblue digi-card2 cur-pointer p-3 position-relative overflow-hidden'>
                             <div className='card1 position-relative z-2'>
                                 <img src={AmberBook1} alt="AmberBook1" />
@@ -79,7 +79,7 @@ const DigitalRevenue = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col data-aos="fade-left" data-aos-duration="1900" xl={4} lg={6} md={9} className='p-0 px-3 pt-xl-0 pt-4'>
+                    <Col data-aos="fade-left" data-aos-duration="1900" xl={4} lg={6} md={9} className='p-0 ps-3 pt-xl-0 pt-4'>
                         <div className='bg_yellgreen digi-card2 cur-pointer p-3 position-relative overflow-hidden'>
                             <div className='card1 position-relative z-2'>
                                 <img src={AmberBook1} alt="AmberBook1" />
