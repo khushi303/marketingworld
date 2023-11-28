@@ -18,7 +18,7 @@ const DigitalMarketing = () => {
                 </div>
                 <Row className='pb-5'>
                     <Col lg={6} data-aos="zoom-out-right" className='d-flex align-items-center justify-content-lg-end justify-content-center pe-lg-4'>
-                        <div className='digital-card'>
+                        <div className='digital-card digi-card2'>
                             <div className='d-flex gap-3'>
                                 <div className=''>
                                     <Fourdots />
@@ -37,7 +37,7 @@ const DigitalMarketing = () => {
                         </div>
                     </Col>
                     <Col lg={6} data-aos="zoom-out-left" className='d-flex align-items-center justify-content-lg-start justify-content-center ps-lg-4 pt-lg-0 pt-5'>
-                        <div className='digital-card'>
+                        <div className='digital-card digi-card2'>
                             <div className='d-flex gap-3'>
                                 <div>
                                     <Marketsvg1 />
@@ -56,7 +56,7 @@ const DigitalMarketing = () => {
                         </div>
                     </Col>
                     <Col lg={6} data-aos="zoom-out-right" className='d-flex align-items-center justify-content-lg-end justify-content-center pt-5 pe-lg-4'>
-                        <div className='digital-card'>
+                        <div className='digital-card digi-card2'>
                             <div className='d-flex gap-3'>
                                 <div>
                                     <Flyingsvg />
@@ -75,7 +75,7 @@ const DigitalMarketing = () => {
                         </div>
                     </Col>
                     <Col lg={6} data-aos="zoom-out-left" className='d-flex align-items-center justify-content-lg-start justify-content-center pt-5 ps-lg-4'>
-                        <div className='digital-card'>
+                        <div className='digital-card digi-card2'>
                             <div className='d-flex gap-3'>
                                 <div>
                                     <Crossimg />
