@@ -25,14 +25,14 @@ const Results = () => {
                 breakpoint: 1300,
                 settings: {
                     centerMode: true,
-                    centerPadding: "250px",
+                    centerPadding: "200px",
                 }
             },
             {
                 breakpoint: 1000,
                 settings: {
                     centerMode: true,
-                    centerPadding: "150px",
+                    centerPadding: "80px",
                 }
             },
             {
