@@ -12,7 +12,7 @@ const Results = () => {
     const settings = {
         dots: true,
         centerMode: true,
-        centerPadding: "400px",
+        centerPadding: "350px",
         infinite: true,
         speed: 500,
         slidesToShow: 1,
@@ -22,13 +22,27 @@ const Results = () => {
         cssEase: 'linear',
         responsive: [
             {
-                breakpoint: 1500,
+                breakpoint: 1300,
                 settings: {
                     centerMode: true,
-                    centerPadding: "300px",
+                    centerPadding: "250px",
+                }
+            },
+            {
+                breakpoint: 1000,
+                settings: {
+                    centerMode: true,
+                    centerPadding: "150px",
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    centerMode: false,
+                    centerPadding: "200px",
                 }
             }
-            
+
         ]
     };
     return (
