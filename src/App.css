@@ -904,6 +904,10 @@ li:focus .dropdown-box {
     transition: all .3s linear;
   }
 
+  .mw-750 {
+    max-width: 750px;
+  }
+
   .redcir:hover .redcircle,
   .redcir:hover .redcircle1,
   .redcir:hover .redcircle2,

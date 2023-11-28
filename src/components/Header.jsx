@@ -74,7 +74,7 @@ const Header = () => {
 
                 </div>
                 <div data-aos="zoom-out-up" data-aos-duration="1900" className='d-flex align-items-center justify-content-center pt-4 pb-4 gap-4 flex-column'>
-                    <p className='mb-0 ff-maisonlight fw-light fs-md text-white lh-125 mw-656 text-center'>We focus on results. Not just chatter. Elevate your business with our top-tier services and tech. Get a proposal now.</p>
+                    <p className='mb-0 ff-maisonlight fw-light fs-md text-white lh-125 mw-750 text-center'>We focus on results. Not just chatter. Elevate your business with our top-tier services and tech. Get a proposal now.</p>
                     <div className='analyze-email w-100 d-flex'>
                         <input type="text" placeholder='Enter Your Website' className='web-input' />
                         <button className='ff-maisonsemibold fs-4sm fw-semibold text-white text-capitalize btn-analyze'>Analyze</button>
