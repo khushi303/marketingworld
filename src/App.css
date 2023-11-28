@@ -7,11 +7,6 @@
   text-decoration: none !important;
 }
 
-body,
-html {
-  overflow-x: hidden;
-}
-
 .ff-spacemono {
   font-family: 'Space Mono', monospace;
 }
@@ -224,7 +219,7 @@ li:focus .dropdown-box {
   border-radius: 64px;
   border: 2px solid var(--color-11, #FFF);
   padding: 6px 6px 6px 24px;
-  max-width: 448px !important;
+  max-width: 500px !important;
 }
 
 .box11 {
@@ -333,7 +328,7 @@ li:focus .dropdown-box {
 }
 
 .digital-card:hover {
-  box-shadow: 0px 4px 25px 0px #00999e;
+  /* box-shadow: 0px 4px 25px 0px #00999e; */
 }
 
 .btn-exploreseo {
@@ -435,7 +430,7 @@ li:focus .dropdown-box {
 
 .btn-call {
   background: #D2F038;
-  padding: 29px 32px;
+  padding: 26px 32px;
 }
 
 .email-inputbtn {
@@ -708,12 +703,25 @@ li:focus .dropdown-box {
 }
 
 .btn-1:hover {
-  transform: translateY(3px);
-  /* box-shadow: 1px 3px 3px 1px white; */
-  border-radius: 25px;
+  animation: pulse 1s infinite ease-in-out !important;
 }
 
-.back_to_top {
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  70% {
+    transform: scale(.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.backtotopbtn {
   position: fixed;
   z-index: 2;
   bottom: 3%;
@@ -721,7 +729,10 @@ li:focus .dropdown-box {
   cursor: pointer !important;
   -webkit-animation: mover 3000ms infinite ease-in-out !important;
   animation: mover 3000ms infinite ease-in-out !important;
-  filter: drop-shadow(0px 5px 8px white);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #5CD93D !important;
 }
 
 @keyframes mover {
@@ -730,7 +741,7 @@ li:focus .dropdown-box {
   }
 
   70% {
-    transform: translateY(-7px);
+    transform: translateY(-6px);
   }
 
   100% {
@@ -746,19 +757,11 @@ li:focus .dropdown-box {
   transform: translateY(-5px);
 }
 
-.redcir {
-  transition: all .3s linear;
-}
-
-.redcir:hover .redcircle,
-.redcir:hover .redcircle1,
-.redcir:hover .redcircle2,
-.redcir:hover .redcircle3 {
-  display: flex;
-}
-
-.redcircleimg {
-  width: 150px !important;
+.redcircle,
+.redcircle1,
+.redcircle2,
+.redcircle3 {
+  display: none;
 }
 
 @media (max-width:992px) {
@@ -897,6 +900,21 @@ li:focus .dropdown-box {
 }
 
 @media (min-width:992px) {
+  .redcir {
+    transition: all .3s linear;
+  }
+
+  .redcir:hover .redcircle,
+  .redcir:hover .redcircle1,
+  .redcir:hover .redcircle2,
+  .redcir:hover .redcircle3 {
+    display: flex;
+  }
+
+  .redcircleimg {
+    width: 150px !important;
+  }
+
   .mw-822 {
     max-width: 822px;
   }

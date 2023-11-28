@@ -101,7 +101,6 @@ const DigitalMarketing = () => {
                         <Col data-aos="fade-right" lg={6} className=''>
                             <h3 className='mb-0 ff-spacemono fw-normal fs-4sm text-black'>Get Your Custom Marketing Plan</h3>
                             <p className='mb-0 ff-maisonlight fw-light fs-2lg text-black pt-2'>Start earning more money now</p>
-
                         </Col>
                         <Col data-aos="fade-left" lg={6} className='d-flex align-items-center justify-content-center pt-lg-0 pt-4 position-relative'>
                             <div className='submit-inputbtn d-flex w-100'>
